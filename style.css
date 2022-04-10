@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap:2rem;
+    background-color: #86C6F4;
+}
+.title{
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+}
+.counter{
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-color: #EEEDDE;
+    padding: 30px;
+    width: 550px;
+    border-radius: 5px;
+    
+}
